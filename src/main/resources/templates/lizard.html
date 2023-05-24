@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lizard</title>
+</head>
+<body>
+
+<h1>Lizards</h1>
+<h2>Whats your favorite lizard?</h2>
+<ul>
+  <li><a href="/lizard/evil">Evil Lizards</a></li>
+  <li><a href="/lizard/nice">Nice Lizards</a></li>
+  <li><a href="/lizard/chill">Chill ass Lizards</a></li>
+    <li><a href="/lizard/strange">Unsettling Lizards</a></li>
+</ul>
+<h2 th:if="${type}"></h2>
+<p>You selected <span th:text="${type}"></span> lizard!</p>
+
+</body>
+</html>
